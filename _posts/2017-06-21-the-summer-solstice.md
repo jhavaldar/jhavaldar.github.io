@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jay Havaldar, Math PhD Student
+title: Math is a thing lol fuck u
 ---
 
 # The Fundamental Theorem of Calculus
@@ -29,3 +29,4 @@ For some scalar $\lambda$, called the **eigenvalue** associated with $v$.
 | ext    | extension to be used for dest files. |
 
 My twitter is [here](https://twitter.com/ItsJayOrIsIt)
+---
