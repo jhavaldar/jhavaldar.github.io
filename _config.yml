@@ -10,8 +10,4 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-      header-includes:
-        -\usepackage[margin=0.8in]{geometry}
-      font-family:
-        -lmodern
-notes: math
+
