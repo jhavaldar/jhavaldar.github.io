@@ -15,14 +15,14 @@ My name is Jay Havaldar, and I am a first-year PhD Student at UNC Chapel Hill. F
 
 ## Skills ￼
 ### Web:
-- HTML / CSS / JavaScript
-- Ruby on Rails
-- Flask
+HTML / CSS / JavaScript
+Ruby on Rails
+Flask
 
 ### Mobile:
-- Android, Objective C
+Android, Objective C
 
 ### Other
-- Ruby
-- Python
-- Haskell
+Ruby
+Python
+Haskell
