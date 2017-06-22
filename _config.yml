@@ -1,6 +1,16 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
+title: Jay Havaldar
+description: Math PhD Student / General knowledge guy
 show_downloads: true
 google_analytics:
 theme: 
 markdown: kramdown
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      header-includes:
+        -\usepackage[margin=0.8in]{geometry}
+      font-family:
+        -lmodern
