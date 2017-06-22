@@ -3,9 +3,8 @@ layout: default
 title: Jay Havaldar, Math PhD Student
 ---
 
-# Jay
-My name is jay
+# Recent Stuff
 
-sup fam
+I recently literally started this blog, and [here](/2017/06/21/the-summer-solstice.html) is my first post.
 
 ---

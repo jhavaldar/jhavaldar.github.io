@@ -2,7 +2,7 @@ title: Jay Havaldar
 description: Math PhD Student | Programmer | Music Fan
 show_downloads: true
 google_analytics:
-theme: 
+theme:
 markdown: kramdown
 defaults:
   -
@@ -14,3 +14,4 @@ defaults:
         -\usepackage[margin=0.8in]{geometry}
       font-family:
         -lmodern
+notes: math

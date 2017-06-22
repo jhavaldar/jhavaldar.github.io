@@ -3,6 +3,8 @@ layout: post
 title: "Math Test"
 date:   2017-06-21
 mathjax: true
+tags: [Math, Linear Algebra, Calculus]
+category: [math]
 ---
 
 # The Fundamental Theorem of Calculus
