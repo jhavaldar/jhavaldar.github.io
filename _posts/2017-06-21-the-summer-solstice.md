@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Math is a thing lol fuck u"
+title: "Math Test"
 date:   2017-06-21
 mathjax: true
 ---
@@ -24,10 +24,13 @@ For some scalar $\lambda$, called the **eigenvalue** associated with $v$.
 - The eigenvalues of a matrix add up to the trace.
 - The product of eigenvalues is the determinant.
 
+___
+
 | Option | Description |
 | ------ | ----------- |
 | data   | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
-My twitter is [here](https://twitter.com/ItsJayOrIsIt)
+
+
 ---
