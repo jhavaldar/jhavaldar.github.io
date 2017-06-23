@@ -16,9 +16,13 @@
 
     <section class="main-content">
       {{ content }}
-      <a href="{{site.url}}/{{ page.path | replace: "_posts/", "assets/" | replace: ".md", ".pdf" }}">Link to PDF</a>
+      {% if page.download %}
+        <h4>Download this Page as a PDF</h4>
+        <a href="{{site.url}}/{{ page.path | replace: "_posts/", "assets/" | replace: ".md", ".pdf" }}">Link to PDF</a>
+      {% endif %}
       {% include footer.html %}
     </section>
+
 
 
     {% if site.google_analytics %}

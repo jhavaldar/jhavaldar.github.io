@@ -140,8 +140,10 @@ a {
         .tabs__link {
             display: block; /* [5] */
         }
-ul {
-  list-style-position: inside;
+ul  {
+ padding-left:0;   
+}
+ul li  {
 }
 
 .primary-nav {
@@ -309,7 +311,7 @@ ul {
     max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 20px;
   }
 
   @include medium {
