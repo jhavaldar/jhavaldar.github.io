@@ -79,6 +79,10 @@ My name is Jay Havaldar, and I am a first-year PhD Student at UNC Chapel Hill. F
     </tr>
     <tr>
       <td style="width:30%;"></td>
+      <td style="width:70%;">SQL</td>
+    </tr>
+    <tr>
+      <td style="width:30%;"></td>
       <td style="width:70%;">Ruby</td>
     </tr>
     <tr>
