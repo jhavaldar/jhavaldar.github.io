@@ -6,6 +6,6 @@ title: Contact Info
 
 **Twitter**: [@JayHavaldar](https://twitter.com/JayHavaldar)
 
-**Email**: [shavaldar95@gmail.com](mailto:shavaldar95@gmail.com)
+**Email**: [shavaldar95/at/gmail.com](mailto:shavaldar95@gmail.com)
 
 ---

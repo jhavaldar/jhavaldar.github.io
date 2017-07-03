@@ -30,14 +30,14 @@ tr {
   box-sizing: border-box;
 }
 
-  p { font-family: 'Century Gothic', sans-serif; font-size: 18px; font-weight: normal; text-align: justify; line-height: 150%; margin: 0 0 14px; }
+  p { font-family: 'Century Gothic', sans-serif; font-size: 16px; font-weight: normal; text-align: justify; line-height: 200%; margin: 0 0 14px; }
 
 body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 30px;
-  line-height: 1.5;
+  line-height: 2.0;
   color: $body-text-color;
 }
 
@@ -254,7 +254,6 @@ ul li  {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-family: 'Century Gothic', sans-serif;
-    font-weight: normal;
     letter-spacing: -1px;
     color: $section-headings-color;
     font-weight: bold;
@@ -355,7 +354,6 @@ ul li  {
     }
 
   table {
-    
     width: 100%;
     font: 'Century Gothic';
     overflow: auto;

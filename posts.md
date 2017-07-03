@@ -3,7 +3,7 @@ layout: default
 title: Posts
 ---
 
-# Posts
+## Posts
 
 Here you can find a list of my posts by topic.
 
