@@ -4,6 +4,7 @@ title: "Symmetric Matrices Are Great"
 date:   2017-07-02
 mathjax: true
 tags: [math, linear algebra]
+download: true
 ---
 
 ## Symmetric Matrices Are Great
@@ -61,6 +62,6 @@ Now, we can use the fact that for any two matrices $A$ and $B$, $AB^T$=$B^TA^T$.
 <p>
 $$v_1^TA^Tv_2 - v_1^TAv_2$$
 </p>
-But $A=A^T$, since $A$ is symmetric! So in fact this quantity is zero. This means either $(\lambda_1 - \lambda_2) $ is zero (it isn't, since we picked two different eigenvalues); or $v_1 \cdot v_2$ is zero. Therefore, the two eigenvectors are perpendicular to one another.
+But $A=A^T$, since $A$ is symmetric! So in fact this quantity is zero. This means either $(\lambda_1 - \lambda_2)$ is zero (it isn't, since we picked two different eigenvalues); or $v_1 \cdot v_2$ is zero. Therefore, the two eigenvectors are perpendicular to one another.
 
 ---

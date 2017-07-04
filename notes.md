@@ -12,7 +12,6 @@ title: Notes
   {% endfor %}
 </ul>
 
-#### Coming soon.
 
 
 ---
