@@ -1,9 +1,11 @@
 <h3> Recent Posts </h3>
 <ul>
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts limit:4 %}
+    {% unless post.category == "math" %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
+    {% endunless %}
   {% endfor %}
 </ul>
 <footer class="site-footer">
