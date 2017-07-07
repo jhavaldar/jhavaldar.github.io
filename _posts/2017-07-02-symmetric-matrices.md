@@ -5,6 +5,7 @@ date:   2017-07-02
 mathjax: true
 tags: [math, linear algebra]
 download: false
+category: post
 ---
 
 ## Three Short Theorems About Symmetric Matrices

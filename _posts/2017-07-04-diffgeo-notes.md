@@ -6,6 +6,7 @@ date:   2017-07-02
 mathjax: true
 category: [math]
 download: true
+category: notes
 ---
 
 # Part I: Calculus on Euclidean Spaces
