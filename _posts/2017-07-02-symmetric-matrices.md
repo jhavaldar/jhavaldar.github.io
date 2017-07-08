@@ -114,40 +114,33 @@ Where $Q$ is an orthogonal matrix, whose columns are the eigenvectors of $M$ and
 The actual Jordan normal form looks like:
 
 <p>
-$$
-\begin{bmatrix}
+$$\begin{bmatrix}
 A_1 & 0 & 0 \\
 0 & ... & 0 \\
 0 & 0 & A_k
-\end{bmatrix}
-$$
+\end{bmatrix}$$
 </p>
 
 Where each of the $A_i$ refers to a **Jordan block**. For each eigenvalue $\lambda$ of multiplicity $m$, we can have any number of associated Jordan blocks, whose sizes add up to $m$. Each Jordan block looks like:
 
 <p>
-$$
-\begin{bmatrix}
+$$\begin{bmatrix}
 \lambda & 1 & 0 & 0 \\
 0 & \lambda & 1 & 0 \\
 0 & 0 & ... & 1\\
 0 & 0 & ...& \lambda
-\end{bmatrix}
-$$
+\end{bmatrix}$$
 </p>
 
 The idea is that the matrix has eigenvalues along the diagonals, and $1$s above the diagonals. We can use the following trick in our proof:
 
 <p>
-$$
-\begin{bmatrix}
+$$\begin{bmatrix}
 \lambda & 1 & 0 \\
 0 & \lambda & 1 \\
 0 & 0 & \lambda
 \end{bmatrix}
-
 =
-
 \begin{bmatrix}
 0 & 0 & 1 \\
 0 & 1 & 0 \\
@@ -157,8 +150,7 @@ $$
 0 & 0 & \lambda \\
 0 & \lambda & 1 \\
 \lambda & 1 & 0\\
-\end{bmatrix}
-$$
+\end{bmatrix}$$
 </p>
 
 The key idea here is that for any non-diagonal Jordan block $J$, $J=AB$, where $A$ is the matrix above with $1$s on the off diagonals, and $B$ is the remaining factor. The key thing here is that both $A$ and $B$ are symmetric. If our Jordan block is diagonal, on the other hand it is already symmetric. What we get from this is that any Jordan block can be written as the product of two symmetric matrices. You can probably see where we're going from here.
