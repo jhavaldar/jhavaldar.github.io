@@ -313,5 +313,6 @@ This is a projection into two dimensional space, but nevertheless it more or les
 
 My main takeaway here, though, is that the clusters are difficult to find and, to a certain extent, are arbitrary depending on your metrics. These clusters don't just pop out of the data; by choosing different features (I tried a few combinations), you get a substantially different picture of what countries are close to each other. Methodology is incredibly important when creating such a system. So while I don't necessarily agree with the methods of, say, the Human Development Index, I can now at least understand where they were coming from.
 
+That's it for this post. Feel free to check out the code on [Github](https://github.com/jhavaldar/world_clusters).
 
 ---
