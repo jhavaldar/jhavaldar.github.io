@@ -6,7 +6,6 @@ twitter:
   username: JayHavaldar
 show_downloads: true
 google_analytics:
-theme:
 markdown: kramdown
 defaults:
   -
