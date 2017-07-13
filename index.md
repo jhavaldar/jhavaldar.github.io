@@ -17,7 +17,7 @@ The site is always under construction, so check back for regular updates.
 
 ## What I've Been Up To Lately
 
-For some miscellaneous math writing, check out my post where I look into [the surprisingly fascinating history of "the quintic equation"](2017/07/06/solvable2.html). You can also check my [notes](/notes) page for some of my notes about various math topics. Currently reading _Elementary Differential Geometry_ by Barret O'Neill. It's great.
+For some miscellaneous math writing, check out my post where I look into [the surprisingly fascinating history of "the quintic equation"](2017/07/02/solvable2.html). You can also check my [notes](/notes) page for some of my notes about various math topics. Currently reading _Elementary Differential Geometry_ by Barret O'Neill. It's great.
 
 For some writing about music, check out my post [analyzing a short chord progression in a Kendrick Lamar song](/post/2017/07/07/element.html) or my [review of the new Haim album](/post/2017/07/07/something-to-tell-you.html). More to come on that front soon.
 
