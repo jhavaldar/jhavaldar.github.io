@@ -255,7 +255,7 @@ $$
 
 ---
 
-Finally, we consider the tangent map applied to a particular type of vector field, the the coordinate maps $U_j(p)=p_i$. We use the definition of tangent maps to arrive at:
+Finally, we consider the tangent map applied to a particular type of vector field, the the coordinate maps $U_j$. We use the definition of tangent maps to arrive at:
 <p>
 $$
 \begin{aligned}
