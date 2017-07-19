@@ -208,7 +208,7 @@ d\phi(V, W) = V[\phi(W)] - W[\phi[V]]
 $$
 </p>
 
-Where $\phi(W)$ is a function since $\phi$ is a one form, and so we can take directional derivatives. You can check that the two definitions are equivalent. The second definition shows us linearity and anti-commutativity far more clearly. Next we prove another property of exterior derivatives, which is that d^2 = 0$. We only need to check this for $0$-forms on a surface.
+Where $\phi(W)$ is a function since $\phi$ is a one form, and so we can take directional derivatives. You can check that the two definitions are equivalent. The second definition shows us linearity and anti-commutativity far more clearly. Next we prove another property of exterior derivatives, which is that $d^2 = 0$. We only need to check this for $0$-forms on a surface.
 
 ##### Theorem
 

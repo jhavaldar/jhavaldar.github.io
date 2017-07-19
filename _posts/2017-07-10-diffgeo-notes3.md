@@ -147,7 +147,7 @@ The torsion and binormal formulas involve a sign because of the involvement of t
 
 **Definition:** Two curves $\alpha, \beta$ are **congruent** if there exists an isometry $F$ such that $F(\alpha) = \beta$. Curves that are the same up to translation are called **parallel**.
 
-This is the big theorem in this section. We hope that the "unique" identifying properties of curves relates to curvature and torsion. We first note that two curves are parallel if their velocities are everywhere parallel, by integration. We state claim our congruence theorem:
+This is the big theorem in this section. We hope that the "unique" identifying properties of curves relates to curvature and torsion. We first note that two curves are parallel if their velocities are everywhere parallel, by integration. We state our congruence theorem:
 
 ##### Theorem
 
