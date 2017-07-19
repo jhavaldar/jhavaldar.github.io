@@ -15,7 +15,7 @@ In this section, we discuss calculus on surfaces. Concretely, surfaces in $\math
 
 ## Surfaces in $\mathbb{R}^3$
 
-**Definition:** Suppose we have a set of points $M\subset \mathbb{R}^3$. A **coordinate patch** $x:\ D\subset \mathbb{R}^2 \rightarrow M$ is a one to one, smooth, regular mapping of an open set $D\subset \mathbb{R}^2$ into $\mathbb{R}^n$. A **proper patch** also has a continuous inverse $x^{-1}$; in other words, a proper patch of $M$ is a homemorphism from Euclidean space to a subset of $M$.
+**Definition:** Suppose we have a set of points $M\subset \mathbb{R}^3$. A **coordinate patch** $x:\ D\subset \mathbb{R}^2 \rightarrow M$ is a one to one, smooth, regular mapping of an open set $D\subset \mathbb{R}^2$ into $\mathbb{R}^n$. A **proper patch** has a continuous inverse $x^{-1}$; in other words, a proper patch of $M$ is a homemorphism from Euclidean space to a subset of $M$.
 
 What we will do is construct an object as a union of (possibly overlapping) patches. Each mapping is one-to-one with a one-to-one tangent map everywhere, so we're sure this map is well-defined for our purposes. Now we can define a surface:
 
@@ -550,9 +550,9 @@ I will assume here a basic knowledge of concepts in topology such as connectedne
 
 **Definition:** A surface is connected if for each $p,q \in M$, there is a curve from $p$ to $q$ in $M$.
 
-**Lemma:** A surface $M$ is compact iff it can be covered by the images of a finite number of rectangles in $M$.
+##### Lemma
 
-##### Proof
+A surface $M$ is compact iff it can be covered by the images of a finite number of rectangles in $M$.
 
 First, we prove the backwards direction. Suppose $M$ is compact. For each $p\in M$, $p$ lies in the image of some rectangle under a patch $x$. A finite number of such patches covers $M$, since $M$ is compact; therefore the number of corresponding rectangles is finite.
 
