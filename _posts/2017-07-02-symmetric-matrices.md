@@ -166,4 +166,3 @@ M &= SJS^{-1} \\
 
 The term on the left, however, is symmetric (check by taking its transpose; note that $A$ is symmetric. By a similar argument, the right term is symmetric as well. So, we've proven that any square matrix can be written as the product of two symmetric matrices. In the real case, real square matrices are written as products of two real symmetric matrices.
 
----

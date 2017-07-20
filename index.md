@@ -22,5 +22,3 @@ For some miscellaneous math writing, check out my post where I look into [the su
 For some writing about music, check out my post [analyzing a short chord progression in a Kendrick Lamar song](/post/2017/07/07/element.html) or my [review of the new Haim album](/post/2017/07/07/something-to-tell-you.html). I also wrote a post breaking down [5 EPs you definitely haven't listened to from the first half of 2017](/post/2017/07/19/albums2017.html).
 
 You can also check out some various other coding projects [here](/projects). Not a whole lot there yet, but I have some ideas and luckily have some free time this summer.
-
----

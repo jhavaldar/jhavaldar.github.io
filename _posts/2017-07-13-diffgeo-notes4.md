@@ -700,6 +700,6 @@ $$
 
 It is not difficult to check that each $\tilde{x}$ is one-to-one and that the collection of patches satisfies the properties of a manifold. $T(M)$ is called the tangent bundle of $M$.
 
----
+
 
 

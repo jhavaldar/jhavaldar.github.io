@@ -451,4 +451,3 @@ So indeed, the only complete minimal surface is a catenoid (this means something
 
 The shape operator $S$ measures the instantaneous change of the unit normal. The unit normal is a sort of "first derivative" (telling us about the tangent plane), and so $S$ is something like a second derivative. By looking at $S$ as an algebraic object, we get some invariants of a surface which will become helpful in defining, as we did for curves, the notion of congruence: principal curvatures and directions, the Gaussian curvature, and the mean curvature (algebraically: the eigenvalues of the shape operator).
 
----

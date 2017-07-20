@@ -167,4 +167,4 @@ If $\alpha, \beta:\ I\rightarrow \mathbb{R}^3$ are unit speed curves such that $
 
 We can prove this theorem by construction. Fix an "initial point" in the interval $I$, and let $F$ be the unique orientation-preserving isometry which sends the Frenet frame of $\alpha$ at $t=0$ to the Frenet frame of $\beta$ at $t=0$. By our earlier theorem about isometries, it immediately follows that the new curve's Frenet apparatus (all three vectors, curvature, and torsion) is the same as that of $\beta$ (if there is a sign error in torsion, apply instead an orienation-reversing isometry). It is not hard to show that this curve is parallel to $\beta$, and thus we are done since the two curves start at the same location.
 
----
+

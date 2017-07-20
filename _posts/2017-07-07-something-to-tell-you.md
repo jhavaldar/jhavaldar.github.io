@@ -4,10 +4,13 @@ title: "Review: Haim - Something to Tell You"
 date:   2017-07-07
 tags: [music, pop, haim]
 download: false
+share: true
 category: post
 ---
 
 # Review: Haim's _Something To Tell You_
+
+{% include share.html %}
 
 <br>
 <center><img src="/assets/albumcover.jpg" width="50%" height="50%"> </center>
@@ -76,4 +79,3 @@ Overall, the album definitely has some highs, as it sees the band taking its sou
 
 **Score:** 7.5/10
 
----

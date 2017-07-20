@@ -284,4 +284,3 @@ We also know that tangent maps are linear transformations, so we can use results
 
 We can do a lot just with the idea of a tangent vector, which is defined as a pair consisting of a vector and a point of application. The duals of tangent vectors are 1-forms, and we can generalize those to k-forms equipped with a natural addition and scalar multiplication. The exterior derivative works as a generalization of differentiation which maps 1-forms to 2-forms, etc; the velocity curve works as a generalization of the derivative to curves; and finally, the tangent map is a generalization of the derivative to mappings.
 
----

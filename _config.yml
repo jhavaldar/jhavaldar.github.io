@@ -5,8 +5,10 @@ author: Jay Havaldar
 twitter:
   username: JayHavaldar
 show_downloads: true
-google_analytics:
+google_analytics: true
 markdown: kramdown
+twitter_username:     JayHavaldar
+github_username:      jhavaldar
 defaults:
   -
     scope:
