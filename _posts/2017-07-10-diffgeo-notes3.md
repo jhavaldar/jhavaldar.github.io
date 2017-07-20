@@ -87,7 +87,19 @@ F(p+tv) &= TC(p+tv) = a + C(p)+tC(v) \\
 \end{aligned}$$
 </p>
 
-An immediate corollary is that isometries preserve dot products of tangent vectors, along with norms and orthogonality. Now, we can also prove that isometries are uniquely determined by frames:
+Taking the derivative at $t=0$ gives us exactly the statement we need.
+
+An immediate corollary is that isometries preserve dot products of tangent vectors, along with norms and orthogonality:
+
+<p>
+$$\begin{aligned}
+F_\star(v_p) \cdot F_\star(w_p) = C(v)_{F(p)}\cdot C(w)_{F(p)} = C(v)\cdot C(w) = v\cdot w
+\end{aligned}$$
+</p>
+
+Where the last equality comes from the definition of orthogonal transformations as exactly those transformations which preserve dot products.
+
+Now, we can also prove that isometries are uniquely determined by frames:
 
 ##### Theorem
 

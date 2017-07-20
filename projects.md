@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 
-## Projects
+# Projects
 
 Check out some of my projects below.
 
