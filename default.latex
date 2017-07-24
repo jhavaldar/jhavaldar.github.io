@@ -1,6 +1,6 @@
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
 $if(beamerarticle)$
-\usepackage{beamerarticle} % needs to be loaded first
+\usepackage{pdfpages} % needs to be loaded first
 $endif$
 $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
@@ -233,7 +233,14 @@ $endif$
 
 \begin{document}
 $if(title)$
-\maketitle
+\begin{titlepage}
+   \vspace*{\stretch{1.0}}
+   \begin{center}
+      \Large\textbf{$title$}\\
+      \large\textit{Jay Havaldar}
+   \end{center}
+   \vspace*{\stretch{2.0}}
+\end{titlepage}
 $endif$
 $if(abstract)$
 \begin{abstract}
