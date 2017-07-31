@@ -12,5 +12,3 @@ title: Notes
     {% endif %}
   {% endfor %}
 </ul>
-
----

@@ -30,7 +30,7 @@ tr {
   box-sizing: border-box;
 }
 
-  p { font-family: 'Century Gothic', sans-serif; font-size: 16px; font-weight: normal; text-align: justify; line-height: 200%; margin: 0 0 14px; }
+p { font-family: 'Century Gothic', sans-serif; font-size: 16px; font-weight: normal; line-height: 200%; margin: 0 0 14px; }
 
 body {
   padding: 0;
@@ -353,6 +353,8 @@ h5 {
   ul,
   ol {
     margin-top: 0;
+    margin: auto;
+    width: 90%;
   }
 
   blockquote {
