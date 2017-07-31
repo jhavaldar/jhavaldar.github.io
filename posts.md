@@ -45,5 +45,3 @@ The following part removes dulpicated tags and invalid tags like blank tag.
    {% endfor %}
   </ul>
 {% endfor %}
-
----

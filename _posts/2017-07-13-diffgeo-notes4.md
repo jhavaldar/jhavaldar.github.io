@@ -694,7 +694,7 @@ To get patches in $T(M)$, we convert our patches on $M$ to abstract patches. Giv
 
 <p>
 $$
-\tilde{x}(p_1, p_2, p_3, p_4) = p_3 x_u(p_1, p_2) + p4 x_v(p_1, p_2)
+\tilde{x}(p_1, p_2, p_3, p_4) = p_3 x_u(p_1, p_2) + p_4 x_v(p_1, p_2)
 $$
 </p>
 

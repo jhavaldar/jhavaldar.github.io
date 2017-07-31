@@ -75,7 +75,7 @@ Recall the definition of the total derivative from multivariable calculus.
 
 We're going to unpack what this really means and finally get around to a rigorous definition of the $dx$ and $dy$ terms we work with everywhere in calculus. Intuitively, $dx$ and $dy$ refer to an infinitesimal quantity in the $x$ and $y$ directions, respectively. We will generalize this notion.
 
-**Definition:** A 1-form is a linear real-valued function on a tangent space. Thus, a 1-form is an element of the dual space of $T_p (\mathbb R)^3$
+**Definition:** A 1-form is a linear real-valued function on a tangent space. Thus, a 1-form is an element of the dual space of $T_p (\mathbb R)^3$.
 
 So we can think of 1-forms as functions which send vectors to real numbers. Naturally, we can define the action of a 1-form on a vector field; 1-forms send vector fields to real-valued functions. If you're reminded of the divergence at this point, you're on the right track. We now define the most important 1-form of them all:
 

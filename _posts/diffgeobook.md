@@ -46,7 +46,7 @@ We also define directional derivatives, which we recall from multivariable calcu
 
 We can calculate it using the gradient:
 
-<p>$$v_p[f] = \nabla f(p) \cdot \frac{v}{\vert v \vert}$$</p>
+<p>$$v_p[f] = \nabla f(p) \cdot v $$</p>
 
 And as we would expect, $v_p[f]$ is linear in both $v_p$ and $f$, and the Leibniz rule (product rule) applies as well. No matter what form differentiation takes, we can pretty much always count on linearity and the Leibniz property to hold. We can generalize the idea of a directional derivative to define the operation of a vector field on a function.
 
@@ -72,9 +72,9 @@ Recall the definition of the total derivative from multivariable calculus.
 
 We're going to unpack what this really means and finally get around to a rigorous definition of the $dx$ and $dy$ terms we work with everywhere in calculus. Intuitively, $dx$ and $dy$ refer to an infinitesimal quantity in the $x$ and $y$ directions, respectively. We will generalize this notion.
 
-**Definition:** A 1-form is a linear real-valued function on a tangent space. Thus, a 1-form is an element of the dual space of $T_p (\mathbb R)^3$
+**Definition:** A 1-form is a linear real-valued function on a tangent space. Thus, a 1-form is an element of the dual space of $T_p (\mathbb R)^3$.
 
-So we can think of 1-forms as functions which send vectors to real numbers. Naturally, we can define the action of a 1-form on a vector field; 1-forms send vector fields to real-valued functions. If you're reminded of the divergence at this point, you're on the right track. We now define the most important 1-form of them all:
+So we can think of 1-forms as functions which send vectors to real numbers. Naturally, we can define the action of a 1-form on a vector field; the 1-form simply is applied to the vector field at each point. We now define the most important 1-form of them all:
 
 **Definition:** The differential of a function $df$ is a 1-form which acts as follows on vectors in a tangent space:
 <p> $$ df(v_p) = v_p[f] $$ </p>
@@ -92,6 +92,8 @@ In terms of the gradient:
 <p> $$ dx = v[x] = (1,0,0) \cdot v = v_1 $$ </p>
 
 In other words, the differential $dx$ is a function which sends a vector to the directional derivative of $x$ (whose gradient is defined as the unit vector $\hat{x}$ everywhere) in the direction of $v$.
+
+Earlier, I mentioned that a good way to think about tangent vectors is to imagine forces at points on a manifold. Instead, perhaps a better way to think about forces is to imagine them as $1$-forms. We can do this because, as we will later see, we can construct an explicit isomorphism between vector fields and their dual forms. Instead of recording the data of where the force points, we could instead record the amount of work which is done by the force when travelling in all possible directions. Thus, a force can be represented dually by either a tangent vector or a form which returns the dot product of any vector with a fixed tangent vector.
 
 ---
 
@@ -216,7 +218,7 @@ $$
 
 ---
 
-You might be wondering about the minus sign in the second term of our construction of the divergence. That will be taken care of with Hodge duality, when we establish a more explicit correspondence between 1-forms and 2-forms. Loosely, however, we can say this: the gradient takes a 0-form to a one form (vector field); the divergence takes a 1-form to a 2-form (vector field); and the divergence takes a 2-form to a three form (function).
+You might be wondering about the minus sign in the second term of our construction of the divergence. That's a consequence of Hodge duality, which establishes a more explicit correspondence between 1-forms and 2-forms. That's outside the scope of this text. Loosely, however, we can say this: the gradient takes a 0-form to a one form (vector field); the divergence takes a 1-form to a 2-form (vector field); and the divergence takes a 2-form to a three form (function).
 
 ## Mappings
 
@@ -239,7 +241,7 @@ If we fix a point $p$, we can see that the tangent map $F \star$ sends tangent v
 
 ##### Proof:
 
-Suppose $F=(f_1, f_2, f_3)$. Then we consider the image $\beta$ of a curve $\alpha$ under $F$. $F_\star$ sends a tangent vector at $\alpha(t)$ to a tangent vector at $\beta(t)$
+Suppose $F=(f_1, f_2, f_3)$. Then we consider the image $\beta$ of a curve $\alpha$ under $F$. $F_\star$ sends a tangent vector at $\alpha(t)$ to a tangent vector at $\beta(t)$:
 <p>
 $$
 \begin{aligned}
@@ -252,7 +254,7 @@ $$
 
 ---
 
-Finally, we consider the tangent map applied to a particular type of vector field, the the coordinate maps $U_j$. We use the definition of tangent maps to arrive at:
+Finally, we consider the tangent map applied to a particular type of vector field, the coordinate maps $U_j$. We use the definition of tangent maps to arrive at:
 <p>
 $$
 \begin{aligned}
@@ -272,6 +274,10 @@ $$
 </p>
 
 Where $\hat{U_j}$ refer to the coordinate maps of the codomain $\mathbb{R}^m$. This construction may look familiar; indeed $F_\star(U_j)$ is the $j$th column of the Jacobian matrix of $F$.
+
+In particular, we can think of $F_\star(U_j)$ in a special case. Suppose we are working with a mapping from $\mathbb{R}^n$ to $M$. Then, $x_\star(U_i)$ gives us the partial derivative of each component of $x$ in terms of $u$.
+
+Geometrically, we can think of this in the following way. We create a curve by taking $x(u,v)$ and holding $v=v_0$ constant while varying $u$ and look at the image in $M$. This is called a **parameter curve** since only one parameter is varying. $x_\star(U_1)$ then returns for example, the derivative of the $u$-parameter curve. The $u$-parameter curve is a linear map, so its tangent or derivative is simply itself.
 
 **Definition:** A mapping is regular if at every point in the domain, the tangent map is one-to-one.
 
@@ -1157,7 +1163,11 @@ $$
 $$
 </p>
 
-This should look a lot like the definition of a line integral. And indeed, we can, for example calculate work. Suppose we have some vector field $V$, representing a force field, and consider the dual form $\phi$ to $V$, defined analogously to how we defined dual forms for frame fields in Part II. So we define $\phi(w) =  w\cdot V$ at each point. Then, we can elegantly write the formula for work as a line integral:
+This should look a lot like the definition of a line integral. And indeed, we can, for example calculate work. 
+
+Recall how earlier we said that we can think of a force as a $1$-form. We take in every tangent vector on the curve (an infinitesimal portion of the curve), and for every such tangent vector calculate $\phi(\alpha)'$, the infinitesimal work done by the force in the direction of the velocity.
+
+Suppose we have some vector field $V$, representing a force field, and consider the dual form $\phi$ to $V$, defined analogously to how we defined dual forms for frame fields in Part II. So we define $\phi(w) =  w\cdot V$ at each point. Then, we can elegantly write the formula for work as a line integral:
 
 <p>
 $$
@@ -1471,7 +1481,7 @@ To get patches in $T(M)$, we convert our patches on $M$ to abstract patches. Giv
 
 <p>
 $$
-\tilde{x}(p_1, p_2, p_3, p_4) = p_3 x_u(p_1, p_2) + p4 x_v(p_1, p_2)
+\tilde{x}(p_1, p_2, p_3, p_4) = p_3 x_u(p_1, p_2) + p_4 x_v(p_1, p_2)
 $$
 </p>
 
@@ -2067,7 +2077,7 @@ To prove these equations, first we need to write a matrix representation of the 
 <p>
 $$\begin{aligned}
 S(E_1) &= -\nabla_{E_1} E_3 = \omega_{13}(E_1) E_1 + \omega_{23}(E_1) E_2 \\
-S(E_2) &= -\nabla_{E_2} E_3 = \omega_{13}(E_1) E_1 + \omega_{23}(E_1) E_2 
+S(E_2) &= -\nabla_{E_2} E_3 = \omega_{13}(E_2) E_1 + \omega_{23}(E_2) E_2 
 \end{aligned}$$
 </p>
 
