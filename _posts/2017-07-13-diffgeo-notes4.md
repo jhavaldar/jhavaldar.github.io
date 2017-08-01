@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Differential Geometry, Part 4: Calculus on Surfaces"
+title: "Differential Geometry, Part 4"
 author: "Jay Havaldar"
 date:   2017-07-12
 mathjax: true
