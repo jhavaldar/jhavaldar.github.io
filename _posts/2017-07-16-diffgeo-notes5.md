@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Differential Geometry, Part 5"
+title: "Differential Geometry, Part 5: Shape Operators"
 author: "Jay Havaldar"
 date:   2017-07-18
 mathjax: true

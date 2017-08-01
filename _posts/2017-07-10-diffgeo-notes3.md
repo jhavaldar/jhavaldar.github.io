@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Differential Geometry, Part 3"
+title: "Differential Geometry, Part 3: Euclidean Geometry"
 author: "Jay Havaldar"
 date:   2017-07-10
 mathjax: true
