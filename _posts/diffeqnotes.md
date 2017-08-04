@@ -828,7 +828,7 @@ x = (a+bi)e^{(\lambda + i\mu)t}
 $$
 </p>
 
-But we can use Euler's identity $e^{it} = \cos t + i \sin t$, and rearrange to get:
+Where $a,b$ are vectors which are the real and imaginary parts of an eigenvector. But we can use Euler's identity $e^{it} = \cos t + i \sin t$, and rearrange to get:
 
 <p>
 $$
