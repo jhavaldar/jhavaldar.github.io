@@ -4,7 +4,7 @@
 % -----------------
 % START OF PREAMBLE
 % -----------------
-\documentclass[11pt,a4paper, oneside]{scrartcl}
+\documentclass[10pt,a4paper, oneside]{scrartcl}
 
 
 % Commands
@@ -20,6 +20,7 @@
 \usepackage{microtype}
 \usepackage{longtable,booktabs}
 \usepackage{grffile}
+\usepackage{ragged2e}
 \usepackage[normalem]{ulem}
 \usepackage{fancyhdr}
 \usepackage[setpagesize=false,
@@ -36,6 +37,8 @@
   includehead,includefoot,
   heightrounded, % to avoid spurious underfull messages
 ]{geometry} 
+
+\setmainfont{Avenir}
 
 % Required fix for fancyhdr
 \DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
@@ -89,5 +92,4 @@ $highlighting-macros$
 \title{($title$)}
 
 $body$
-
 \end{document}

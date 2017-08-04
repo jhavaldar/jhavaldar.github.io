@@ -7,6 +7,10 @@ title: Notes
 <h3> Differential Equations: </h3>
 - [Differential Equations Part 1: First Order Linear Equations](/notes/2017/07/11/diffeq1.html)
 - [Differential Equations Part 2: Second Order Linear Equations](/notes/2017/07/24/diffeq2.html)
+- [Differential Equations Part 3: Higher Order Linear Equations](/notes/2017/08/01/diffeq3.html)
+- [Differential Equations Part 4: Systems of First Order Linear Equations](/notes/2017/08/01/diffeq4.html)
+- [Differential Equations Part 5: Further Topics: Series Solutions, Euler Equations, Matrix Exponential, Laplace Transform, Nonlinear Systems](/notes/2017/08/03/diffeq5.html)
+- [Differential Equations, Parts 1-5 (PDF)](/assets/diffeqnotes.pdf)
 
 <h3> Differential Geometry: </h3>
 - [Differential Geometry Part 1: Calculus on Euclidean Spaces](/notes/2017/07/02/diffgeo-notes.html)

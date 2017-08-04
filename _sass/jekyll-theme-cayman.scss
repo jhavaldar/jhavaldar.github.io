@@ -24,7 +24,7 @@ table {border: none;}
 }
 
 tr {
-  align: left;
+  align: center;
 }
 * {
   box-sizing: border-box;
@@ -375,6 +375,8 @@ h5 {
   blockquote {
     padding: 0 1rem;
     margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: $blockquote-text-color;
     border-left: 0.3rem solid $border-color;
 
@@ -387,6 +389,7 @@ h5 {
     }
   }
     thead {
+      text-align: left;
       align: left;
     }
 
@@ -401,6 +404,7 @@ h5 {
 
 
     th {
+      text-align: left;
       font-weight: bold;
     }
     td {
