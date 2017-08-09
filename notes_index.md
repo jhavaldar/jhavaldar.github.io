@@ -22,7 +22,10 @@ title: Notes
 - [Differential Geometry Part 7: Riemannian Geometry](/notes/2017/07/18/diffgeo7.html)
 - [Differential Geometry, Parts 1-7 (PDF)](/assets/diffgeobook.pdf)
 
-<h3> Ring Theory </h3>
+<h3> Topology: </h3>
+- [Topology Part 1: Topological Spaces](/notes/2017/08/04/top1.html)
+
+<h3> Ring Theory: </h3>
 - [Ring Theory Part 1: Introduction to Rings](/notes/2017/07/26/rings.html)
 
 <h3> Miscellaneous </h3>
