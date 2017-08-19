@@ -10,6 +10,8 @@ download: false
 
 # Thoughts on Free Speech
 
+{% include share.html %}
+
 The alt-right protest in Charlottesville last week was brutal. Though white supremacy has been a subtext of American politics seething just under the surface for decades, we as a nation haven't seen it manifest itself so visibly and violently in quite some time. We saw hints of it on the campaign trail, but nothing like this. Even if you are a cynic, let's not pretend like the events of last weekend were anything but a drastic escalation. When was the last time you watched a Nazi run over and murder a woman on livestream?
 
 But I think deep down, we all know this. Marginalized groups, white liberals, and Charlottesville residents are dealing with what they've seen in their own ways, and everyone's just trying to make sense of the situation in the way that they can. I'm not going to offer the same hot takes you can hear from anyone in the media, pop culture, and politics, though it deserves to be said as many times as it can be said that last weekend was a display of hatred that ought to to be condemned by all, and a reflection of a growing and disturbing strain of politics that has become increasingly empowered and encouraged over the last few years.
