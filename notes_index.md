@@ -30,6 +30,7 @@ title: Notes
 
 <h3> Ring Theory: </h3>
 - [Ring Theory Part 1: Introduction to Rings](/notes/2017/07/26/rings.html)
+- [Ring Theory Part 2: Classification of Integral Domains](/notes/2017/09/04/rings2.html)
 
 <h3> Miscellaneous </h3>
 - [The Sylow Theorems](/notes/2017/07/06/sylow.html)
