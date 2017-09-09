@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Differential Geometry, Part 1: Calculus on Euclidean Spaces"
+title: "Differential Geometry, Part I: Calculus on Euclidean Spaces"
 author: "Jay Havaldar"
 date:   2017-07-02
 mathjax: true
@@ -8,8 +8,6 @@ category: [math]
 download: true
 category: notes
 ---
-
-# Part I: Calculus on Euclidean Spaces
 
 From Wikipedia:
 

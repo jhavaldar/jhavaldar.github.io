@@ -1,0 +1,15 @@
+<h1> {{page.title}}</h1>
+{% if page.subtitle %}
+<h6> {{page.subtitle}} </h6>
+{% endif %}
+{% assign day = page.date | date: "%-d"  %}
+<p style="font-style: italic; font-weight:bold; font-family: Arial; opacity: 0.8;">
+{{ page.date | date: "%B" }}
+{% case day %}
+  {% when '1' or '21' or '31' %}{{ day }}st,
+  {% when '2' or '22' %}{{ day }}nd,
+  {% when '3' or '23' %}{{ day }}rd,
+  {% else %}{{ day }}th,
+{% endcase %} {{ page.date | date: "%Y" }}
+</p>
+

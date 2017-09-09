@@ -7,11 +7,6 @@ download: false
 share: true
 category: post
 ---
-
-# Review: Haim's _Something To Tell You_
-
-{% include share.html %}
-
 <br>
 <center><img src="/assets/albumcover.jpg" width="50%" height="50%"> </center>
 <br>

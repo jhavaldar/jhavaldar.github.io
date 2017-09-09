@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Differential Geometry"
+title: "Differential Geometry Part III: Euclidean Geometry"
 author: "Jay Havaldar"
 date:   2017-07-10
 mathjax: true
@@ -8,8 +8,6 @@ category: [math]
 download: true
 category: notes
 ---
-
-# Part III: Euclidean Geometry
 
 In this section, we discuss Euclidean geometry in more detail using the tools introduced in the previous two parts. The main ideas of this article revolve around isometries, which will stand in for a notion of congruence for geometrical objects. This will be a shorter chapter, since there's not much to do but apply definitions.
 

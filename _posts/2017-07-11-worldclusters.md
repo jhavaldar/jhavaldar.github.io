@@ -4,8 +4,9 @@ title: "What Is a Third World Country?"
 author: "Jay Havaldar"
 date:   2017-07-11
 mathjax: true
-category: [data science, linear algebra]
+tags: [data science, linear algebra, misc]
 category: post
+share: true
 ---
 
 <style>
@@ -178,8 +179,6 @@ d3.csv("/assets/final_clusters.csv", function(error, data) {
 });
 
 </script>
-
-# Part 1, Or, What Even Is A Third World Country?
 
 I was having a conversation with some friends about the distinctions between so-called "First World" and "Third World" nations. I had a hunch that this categorization seemed a little outdated, and a look into the history of the terms confirmed my suspicions. The terminology was invented during the Cold War to describe allegiances. The "Third World" referred to the three quarters of the world at the time which hadn't aligned with etiher empire. This categorization is practically useless for any sort of demographic or economic comparison, as the Third World places countries like Greenland, Venezuela, and Saudi Arabia under the same umbrella.
 

@@ -3,14 +3,11 @@ layout: post
 title: "Thoughts on Free Speech"
 date:   2017-08-16
 mathjax: true
-tags: [politics, culture]
+tags: [politics, culture, misc]
 category: post
 download: false
+share: true
 ---
-
-# Thoughts on Free Speech
-
-{% include share.html %}
 
 The alt-right protest in Charlottesville last week was brutal. Though white supremacy has been a subtext of American politics seething just under the surface for decades, we as a nation haven't seen it manifest itself so visibly and violently in quite some time. We saw hints of it on the campaign trail, but nothing like this. Even if you are a cynic, let's not pretend like the events of last weekend were anything but a drastic escalation. When was the last time you watched a Nazi run over and murder a woman on livestream?
 

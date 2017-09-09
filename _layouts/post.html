@@ -18,6 +18,12 @@
     {% include header.html %}
 
     <section class="main-content">
+      {% include title.html %}
+      {% if page.share %}
+      {% include share.html %}
+      {% endif %}
+
+      <hr>
       {{ content }}
       {% if page.download %}
         <h6>Download this Page as a PDF:</h6> 

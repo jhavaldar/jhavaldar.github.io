@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: default
 title: Notes
 ---
 
-<h1>Notes:</h1>
+<h1>Notes</h1>
+
 <h3> Differential Equations: </h3>
 - [Differential Equations Part 1: First Order Linear Equations](/notes/2017/07/11/diffeq1.html)
 - [Differential Equations Part 2: Second Order Linear Equations](/notes/2017/07/24/diffeq2.html)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Differential Geometry, Part 4"
+title: "Differential Geometry Part IV: Calculus on Surfaces"
 author: "Jay Havaldar"
 date:   2017-07-12
 mathjax: true
@@ -8,8 +8,6 @@ category: [math]
 download: true
 category: notes
 ---
-
-# Part IV: Calculus on Surfaces
 
 In this section, we discuss calculus on surfaces. Concretely, surfaces in $\mathbb{R}^3$ are comparable to sections of the Euclidean plane $\mathbb{R}^2$; with this correspondence, we can carry over much of the tools from calculus to surfaces (functions, vector fields, differential forms) and consider surfaces regardless of their ambient context.
 

@@ -6,9 +6,8 @@ mathjax: true
 tags: [math, linear algebra]
 download: false
 category: post
+share: true
 ---
-
-## Three Short Theorems About Symmetric Matrices
 
 Matrices are incredibly useful for a multitude of reasons in programming and science in general. For one, a matrix can be used to store two dimensional collections of data, like tables or even images (which are collections of pixels). Arguably more importantly, matrices are synonymous with **linear maps**. A linear map is a special, "nicely behaved" function of one or more variables which we can do a lot of interesting math with, and in fact there is an entire branch of math which studies the ways in which we can approximate the world of non-linear functions by linear functions -- otherwise known as calculus.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Differential Geometry, Part 5"
+title: "Differential Geometry Part V: Shape Operators"
 author: "Jay Havaldar"
 date:   2017-07-18
 mathjax: true
@@ -8,8 +8,6 @@ category: [math]
 download: true
 category: notes
 ---
-
-# Part V: Shape Operators
 
 We can now study the shape of surfaces through the lens of linear algebra, namely a symmetric operator called the shape operator. We draw comparison with the [Frenet formulas and their generalizations using the connection forms](/notes/2017/07/08/dffgeo2.html), which describe curves in terms of their curvature and torsion, to develop similar machinery describing surfaces. Finally, we generalize the [uniqueness theorem for curves](/notes/2017/07/10/diffgeo-notes3.html) to a congruence theorem for surfaces, although that will have to wait until Part VI.
 
