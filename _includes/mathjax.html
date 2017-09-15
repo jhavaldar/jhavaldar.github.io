@@ -1,6 +1,11 @@
 {% if page.mathjax %}
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
+    Macros: {
+      RR: "{\bf R}",
+      bold: ["{\\bf #1}",1],
+      Abs: ['\\left\\lvert #2 \\right\\rvert_{\\text{#1}}', 2, ""]
+    },
     tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
       processEscapes: true,

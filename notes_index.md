@@ -28,6 +28,7 @@ title: Notes
 
 <h3> Analysis: </h3>
 - [Analysis Part 1: Metric Spaces](/notes/2017/08/19/analysis1.html)
+- [Analysis Part 2: Continuous Functions on Metric Spaces](/notes/2017/09/12/analysis2.html)
 
 <h3> Ring Theory: </h3>
 - [Ring Theory Part 1: Introduction to Rings](/notes/2017/07/26/rings.html)
