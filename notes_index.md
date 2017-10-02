@@ -34,6 +34,10 @@ title: Notes
 - [Ring Theory Part 1: Introduction to Rings](/notes/2017/07/26/rings.html)
 - [Ring Theory Part 2: Classification of Integral Domains](/notes/2017/09/04/rings2.html)
 
+<h3> Module Theory: </h3>
+- [Module Theory, Part I: Introduction, Module Homomorphisms](/notes/2017/09/14/modules1.html)
+- [Module Theory, Part II: Generation of Modules, Direct Sums, and Free Modules](/notes/2017/09/15/modules2.html)
+
 <h3> Miscellaneous </h3>
 - [The Sylow Theorems](/notes/2017/07/06/sylow.html)
 
