@@ -17,8 +17,8 @@ The site is always under construction, so check back for regular updates.
 
 ## What I've Been Up To Lately
 
-For some miscellaneous math writing, check out my post where I look into [the surprisingly fascinating history of "the quintic equation"](/post/2017/07/02/solvable2.html). You can also check my [notes](/notes) page for some of my notes about various math topics. I'm currently reading _Undergraduate Algebra_ by Serge Lang and _Gauge Fields, Knots, Gravity_ by John Baez. The first draft of my differential geometry notes [are here](/assets/diffgeobook.pdf).
+For some miscellaneous math writing, check out my post where I look into [the surprisingly fascinating history of "the quintic equation"](/post/2017/07/02/solvable2.html). You can also check my [notes](/notes) page for some of my notes about various math topics. I'm currently studying for an upcoming round of comprehensive exams. You can check out my notes [here](/notes_index).
 
 For some writing about music, check out my post [analyzing a short chord progression in a Kendrick Lamar song](/post/2017/07/07/element.html) or my [review of the new Haim album](/post/2017/07/07/something-to-tell-you.html). I also wrote a post breaking down [5 EPs you definitely haven't listened to from the first half of 2017](/post/2017/07/19/albums2017.html).
 
-You can also check out some various other coding projects [here](/projects). Not a whole lot there yet, but I have some ideas and luckily have some free time this summer.
+You can also check out some various other coding projects [here](/projects). 
