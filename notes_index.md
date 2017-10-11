@@ -29,17 +29,23 @@ title: Notes
 <h3> Analysis: </h3>
 - [Analysis Part 1: Metric Spaces](/notes/2017/08/19/analysis1.html)
 - [Analysis Part 2: Continuous Functions on Metric Spaces](/notes/2017/09/12/analysis2.html)
+- [Analysis, Part III: Uniform Functions on Metric Spaces](/notes/2017/09/27/analysis3.html)
 
 <h3> Ring Theory: </h3>
 - [Ring Theory Part 1: Introduction to Rings](/notes/2017/07/26/rings.html)
 - [Ring Theory Part 2: Classification of Integral Domains](/notes/2017/09/04/rings2.html)
 
+<h3> Group Theory: </h3>
+- [Group Theory, Part I: Definitions and Basics] (/notes/2017/09/19/groups1.html)
+- [The Sylow Theorems](/notes/2017/07/06/sylow.html)
+
 <h3> Module Theory: </h3>
 - [Module Theory, Part I: Introduction, Module Homomorphisms](/notes/2017/09/14/modules1.html)
 - [Module Theory, Part II: Generation of Modules, Direct Sums, and Free Modules](/notes/2017/09/15/modules2.html)
 
-<h3> Miscellaneous </h3>
-- [The Sylow Theorems](/notes/2017/07/06/sylow.html)
+<h3> Representation Theory </h3>
+- [Representation Theory, Part I: Basics](/notes/2017/10/08/17-reptheory1.html)
+- [Representation Theory, Part II: Character Theory ](notes/2017/10/11/17-reptheory2.html)
 
 <!--
 <ul>
