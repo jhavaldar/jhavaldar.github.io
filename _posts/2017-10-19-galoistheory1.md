@@ -253,7 +253,7 @@ Now, if $K$ is the splitting field of a separable polynomial $f(x) \in F[x]$ the
 
 The Galois correspondence is evidently inclusion reversing.
 
-#####$ Part 2
+##### Part 2
 
 If $E=K_H$ is the fixed field of $H$ (which is Galois), then by Theorem 2 $[K:E] =\vert H \vert$, and similarly $[K:F] = \vert G \vert$. Taking the quotient gives $[E:F] = [G:H]$.
 
