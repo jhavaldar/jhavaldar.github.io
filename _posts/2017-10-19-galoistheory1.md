@@ -7,7 +7,7 @@ mathjax: true
 category: [math]
 download: true
 category: notes
-chapter: 1
+chapter: 3
 ---
 
 ## Introduction
@@ -270,7 +270,7 @@ Let $E = K_H$ be the fixed field of the subgroup $H$. Then every $\sigma \in G$,
 
 Conversely, let $\tau: E \rightarrow \tau(E) \subseteq \overline{F}$ be any embedding of $E$ (into a fixed algebraic closure $\overline{F}$ containing $K$) which fixes $F$. Then, if $\alpha \in E$ has minimal polynomial $m_\alpha$ over $F$ then $\tau(\alpha)$ is another root of $m_\alpha(x)$ and so $K$ contains $\tau(\alpha)$ as well. Thus, $\tau(E)\subseteq K$.
 
-As above, $K$ is the splitting field of $f(x)$ over $E$ and so it is also the splitting field of $\tauf(x) =f(x)$ (since $\tau$ fixes $F$) over $\tau(E)$. 
+As above, $K$ is the splitting field of $f(x)$ over $E$ and so it is also the splitting field of $\tau f(x) =f(x)$ (since $\tau$ fixes $F$) over $\tau(E)$. 
 
 So, we can extend $\tau$ to an isomorphism $\sigma$ from $K$ to $K$. Since $\sigma$ fixes $F$, what we have just shown is that every embedding $\tau$ of $E$ fixing $F$ can be extended to an automorphism $\sigma$ of $K$ fixing $F$. In other words, every embedding of $E$ is the action of some $\sigma \in G$.
 

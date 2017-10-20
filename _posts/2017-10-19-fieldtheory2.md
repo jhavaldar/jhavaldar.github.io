@@ -319,7 +319,7 @@ p(x) = p_k(x^{p^k})
 $$</p>
 Where $p_k$ has nonzero derivative. 
 
-Thus, if $p$ is an irreducible polynomial over $F$ with char. $p$, then there is a unique integer $k\geq 0$ and a unique irreducible separable polynomial $p_{\text{sep}}(x)$ \in F[x]$ such that:
+Thus, if $p$ is an irreducible polynomial over $F$ with char. $p$, then there is a unique integer $k\geq 0$ and a unique irreducible separable polynomial $p_{\text{sep}}(x) \in F[x]$ such that:
 <p>$$
 p(x) = p_{\text{sep}}(x^{p^k})
 $$</p>
