@@ -21,6 +21,7 @@
 \usepackage{longtable,booktabs}
 \usepackage{grffile}
 \usepackage{ragged2e}
+\setcounter{section}{$chapter$}
 \usepackage[normalem]{ulem}
 \usepackage{fancyhdr}
 \usepackage[setpagesize=false,
@@ -43,8 +44,6 @@
 % Required fix for fancyhdr
 \DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
 % Fancy headers and footers settings
-\lhead{$left-header$}
-\rhead{$right-header$}
 
 
 % Required for syntax highlighting
@@ -92,4 +91,5 @@ $highlighting-macros$
 \title{($title$)}
 
 $body$
+
 \end{document}
