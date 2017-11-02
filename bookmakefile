@@ -1,1 +1,1 @@
-pandoc diffeqnotes.md --from markdown --to latex --template book.tex --latex-engine xelatex -o diffeqnotes.pdf
+pandoc algebrabook.md --from markdown --to latex --template book.tex --latex-engine xelatex -o algebrabook.pdf
