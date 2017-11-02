@@ -104,7 +104,7 @@ y_1^{n-1} & y_2^{n-1} & \dots & y_n^{n-1}
 $$</p>
 
 Abbrevating this, we write:
-$$<p>X = \begin{bmatrix} y_1 & y_2 & \dots & y_n \end{bmatrix}</p>$$
+<p>$$X = \begin{bmatrix} y_1 & y_2 & \dots & y_n \end{bmatrix}$$</p>
 
 It is not hard to check (because matrix multiplication can be done column-wise), that indeed we can write for any fundamental matrix $X$ for the homogeneous equation $x' = Cx$ the following identity:
 
@@ -160,3 +160,4 @@ $$</p>
 And solving the above equation is exactly the method of the variation of parameters. Indeed, solving the homogeneous equation amounts to picking $u' = 0$; indeed, then $u$ is a constant matrix. The statement, then, is that if we take a linear combination of a fundamental system of homogeneous solutions, we arrive at another homogeneous solution (this is sometimes called the principle of superposition).
 
 Hopefully this is an illuminating way to look at the variation of parameters from the perspective of linear algebra!
+
