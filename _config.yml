@@ -1,5 +1,4 @@
 title: Jay Havaldar
-description: Math Student, Programmer, Music Fan
 url: https://jhavaldar.github.io
 author: Jay Havaldar
 twitter:
@@ -7,7 +6,6 @@ twitter:
 show_downloads: true
 google_analytics: true
 markdown: kramdown
-twitter_username:     JayHavaldar
 github_username:      jhavaldar
 defaults:
   -
@@ -16,4 +14,3 @@ defaults:
     values:
       layout: "default"
 gems: [jekyll-seo-tag]
-

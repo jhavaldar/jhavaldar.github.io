@@ -49,8 +49,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll (~> 3.4)
   jekyll-seo-tag
   jekyll-theme-cayman!
 
 BUNDLED WITH
-   1.15.1
+   1.17.2
