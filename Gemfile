@@ -3,4 +3,4 @@ source 'https://rubygems.org'
 gemspec
 gem 'jekyll-seo-tag'
 
-gem "jekyll", "~> 3.4"
+gem "jekyll", "~> 3.6"
